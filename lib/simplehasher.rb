@@ -1,4 +1,4 @@
-module SimpleHasher
+class SimpleHasher
   ALLOWED_CHARS = "CLK0oXklU2d6RvTrS1aDBx9GfN3e7FnQOtsmPi85MYq4AWHbZIuwJEgjVhpzyc"
 
   def self.encode(id)
