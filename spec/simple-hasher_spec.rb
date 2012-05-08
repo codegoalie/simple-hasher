@@ -5,7 +5,7 @@ describe SimpleHasher do
   describe "encode" do
     it 'should encode a single digit integer' do
       num = 1
-      SimpleHasher.encode(num).should== SimpleHasher::ALLOWED_CHARS[num]
+      SimpleHasher.encode(num).should== SimpleHasher.allowed_chars[num]
     end
 
     it 'should encode an integer into a multi-character string' do
