@@ -1,3 +1,3 @@
-class SimpleHasher
-  VERSION = "0.0.6"
+module SimpleHasher
+  VERSION = "0.0.7"
 end

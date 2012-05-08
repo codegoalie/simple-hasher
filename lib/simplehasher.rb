@@ -1,6 +1,6 @@
-class SimpleHasher
+require File.dirname(__FILE__) + '/simplehasher/railtie' if defined?(Rails)
 
-  require File.dirname(__FILE__) + 'simplehasher/railtie' if defined?(Rails)
+module SimpleHasher
 
   def self.encode(id)
     length = self.config.allowed_chars.length
